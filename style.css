@@ -72,7 +72,7 @@ html {
 }
 
 body {
-  background-image: url(/Dark\ BG.jpg);
+  background-image: url(bg.jpg);
   height: 150vh;
   width: 85vw;
   background-repeat: no-repeat;
