@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous"referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title id="Home">Fauzan Sarwer</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+         <h1><a href="https://github.com/NotFauzan">Fauzan</a></h1> 
+        </div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#Socials">Socials</a></li>
+          <a class="Contact" href="#Contact">Contact</a>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <h1 id="intro-text">
+      Hi, I'm
+      <span
+        >Fauzan</span
+      >
+    </h1>
+    <h2 id="website-not-ready" >this website is currently not ready :(
+      but you can still follow me on my socials till I make this website :)
+    </h2>
+    <br/>
+<div class="socials">
+<ul>
+<li><a target=blank href="https://github.com/NotFauzan" class="fab fa-github"></a></li>
+<li><a target=blank href="https://instagram.com/_.fsarwer._" class="fab fa-instagram"></a></li>
+<li><a target=blank href="https://bit.ly/FazéyyyYT" class="fab fa-youtube"></a></li>
+</ul>
+</div>
+    <script>
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = () => {
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+        body.classList.add("disabled");
+      };
+      cancelBtn.onclick = () => {
+        body.classList.remove("disabled");
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+      };
+      window.onscroll = () => {
+        this.scrollY > 23
+          ? navbar.classList.add("sticky")
+          : navbar.classList.remove("sticky");
+      };
+    </script>
+  </body>
+</html>
