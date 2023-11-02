@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(6, 4, 39);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: rgba(1, 48, 157, 0.116);
+}
+
+.left{
+    font-size: 1.1rem;
+    position: relative;
+    right: 88px;
+    transition: 0.77s all;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center ;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 1.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s all;
+}
+
+nav ul li a:hover{
+    color: rgb(132, 0, 255);
+}
+
+.left:hover{
+    color: rgb(132, 0, 255);
+}
+
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+    padding: 30px;
+}
+
+.first-sec div{
+    width: 30%;
+}
+
+.left-sec{
+    font-size: 2.2rem;
+    width: 30%;
+    margin-top: 3.8rem;
+}
+
+.left-sec .btn{
+    padding: 12px;
+    margin-top: 2rem;
+    width: 20rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(95, 0, 124, 0.138);
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.47s all;
+}
+
+.left-sec .btn a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.44s all;
+}
+
+.left-sec .btn:hover{
+    color: #9a39f5;
+    background: #ffffff0c;
+}
+
+.left-sec h1{
+    font-weight: 570;
+}
+
+.name{
+    background: linear-gradient(90deg, rgb(191, 113, 255) 30%, rgba(61,9,121,1) 100%, rgba(209,0,255,1) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right-sec img{
+    width: 80%;
+    margin-top: 2rem;
+}
+
+#element{
+    background: linear-gradient(90deg, rgb(169, 136, 255) 0%, rgb(112, 16, 222) 75%, rgba(209,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second-sec{
+    max-width: 88vw;
+    height: 92vh ;
+    font-size: 1.44rem;
+    margin: auto;
+}
+
+main hr{
+    border: 0;
+    background: rgba(149, 136, 200, 0.83);
+    height: 1.44px;
+    margin: 1.5rem 3.3rem;
+}
+
+.box{
+    background-color: white;
+    width: 60vw;
+    height: 2px;
+    display: flex   ;
+    margin: 36px 0;
+}
+
+.second-sec .vertical{
+    height: 93px;
+    width: 1.2px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 55px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 525;
+    width: 190px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 55px;
+    left: 40px;
+    color: rgb(226, 226, 226);
+    width: 440px;
+    font-size: 14px;
+}
+
+.img-top{
+    height: 96px;
+    width: 102px;
+    position: relative;
+    top: 44px;
+    left: 2px  ;
+    margin-right: 11px;
+}
+
+.box2{
+    background-color: white;
+    width: 60vw;
+    height: 2px;
+    display: flex   ;
+    margin: 188px 0;
+}
+
+.vertical-title2{
+    position: relative;
+    top: 55px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 525;
+    width: 190px;
+}
+
+.vertical-desc2{
+    position: relative;
+    top: 55px;
+    left: 40px;
+    color: rgb(226, 226, 226);
+    width: 380px;
+    font-size: 14px;
+}
+
+.box3{
+    background-color: white;
+    width: 60vw;
+    height: 2px;
+    display: flex   ;
+    margin: 188px 0;
+}
+
+.vertical-title3{
+    position: relative;
+    top: 55px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 525;
+    width: 190px;
+}
+
+.vertical-desc3{
+    position: relative;
+    top: 55px;
+    left: 40px;
+    color: rgb(226, 226, 226);
+    width: 350px;
+    font-size: 14px;
+}
+
+.second-sec h1{
+    background: linear-gradient(90deg, rgb(191, 113, 255) 0%, rgba(61,9,121,1) 35%, rgba(209,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
+    background: rgb(132,0,255);
+    background: linear-gradient(90deg, rgb(39, 1, 74) 0%, rgb(1, 22, 79) 35%, rgb(43, 7, 85) 100%);    
+    padding: 15px 0;
+    align-items: center;
+  }
+  
+  .footer_container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  footer h4{
+    font-weight: 499;
+  }
